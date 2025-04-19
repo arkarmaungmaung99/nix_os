@@ -19,12 +19,12 @@
     enable = true;
     globals.mapleader = " "; # Sets the leader key to space
 
-    colorschemes.catppuccin = {
-      enable = true;
-      settings = {
-        transparent_background = true;
-      };
-    };
+    # colorschemes.catppuccin = {
+    #   enable = true;
+    #   settings = {
+    #     transparent_background = true;
+    #   };
+    # };
 
     plugins = {
       which-key.enable = true;
@@ -39,7 +39,7 @@
         window = {
           position = "right";
         };
-        buffers = {
+        filesystem = {
           followCurrentFile = {
             enabled = true;
             leaveDirsOpen = false;
@@ -112,11 +112,6 @@
       #   lsp.auto_attach = true;
       # };
       #      };
-
-      indent-blankline = {
-        enable = true;
-      };
-
       none-ls = {
         enable = true;
         sources = {
@@ -174,7 +169,28 @@
           };
         };
       };
+      autoclose.enable = true;
+      virt-column.enable = true;
+      indent-blankline = {
+        enable = true;
+      };
+
     };
+    colorschemes.onedark = {
+      enable = true;
+      settings = {
+        style = "darker";
+        transparent = true;
+        term_colors = false;
+      };
+    };
+    extraPlugins = with pkgs.vimPlugins; [
+      # {
+      #   plugin = pywal-nvim;
+      #   config = ''lua require("pywal").setup()'';
+      #
+      # }
+    ];
 
     opts = {
       number = true; # Show line numbers
