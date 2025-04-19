@@ -151,7 +151,7 @@
         format-alt = "{time}";
         format-charging = "<span size = '10000' weight = 'bold'>{capacity}</span> \n ";
         format-plugged = "<span size = '10000' weight = 'bold'>{capacity}</span> \n ";
-        format-full = "<span size = '9500' weight = 'bold'>Full</span> \n ";
+        format-full = "<span size = '10000' weight = 'bold'>Full</span> \n ";
         states = {
           critical = 15;
           warning = 30;

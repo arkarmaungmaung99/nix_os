@@ -1,9 +1,9 @@
-{ pkgs , ...}:
+{ pkgs, ... }:
 
 {
- environment.systemPackages = with pkgs; [
-  firefox
-  # vivaldi
-  google-chrome
- ];
+  environment.systemPackages = with pkgs; [
+    firefox
+    # vivaldi
+    google-chrome
+  ];
 }

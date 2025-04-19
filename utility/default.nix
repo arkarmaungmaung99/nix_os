@@ -26,6 +26,8 @@
 
       imagemagick
 
+      nix-prefetch
+
   ];
 
 

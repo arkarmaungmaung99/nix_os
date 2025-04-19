@@ -2,11 +2,11 @@
 /* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
-    bg0:  #00000066;
+    bg0:  #00000090;
     bg1:  #363636;
     bg2:  #f5f5f520;
     bg3:  #f5f5f540;
-    bg4:  #00000033;
+    bg4:  #FFFFFF05;
 
     fg0:  #f5f5f5;
     fg1:  #f5f5f580;

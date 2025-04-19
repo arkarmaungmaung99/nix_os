@@ -2,6 +2,9 @@
 
 {
 
+  home.packages = with pkgs; [
+    meslo-lgs-nf
+  ];
   programs.kitty = {
     enable = true;
     settings = {
@@ -10,6 +13,7 @@
       window_padding_width = "10 15";
       background_opacity = lib.mkForce "0.9";
       background_blur = 15;
+      font_family = "MesloLGS NF";
       font_size = 12.6;
       adjust_line_height = 7;
       adjust_column_width = 0;
@@ -20,9 +24,7 @@
       cursor_trail_start_threshold = 3;
 
     };
+
   };
-
-
-
 
 }

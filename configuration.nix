@@ -12,6 +12,7 @@
     WAYLAND_DISPLAY = "wayland-1";
   };
 
+
   imports =
     [ 
 	# Custom configs

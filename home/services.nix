@@ -23,8 +23,8 @@
   systemd.user.timers.wallpaper-random = {
     Unit.Description = "Run wallpaper randomizer every 3 minutes";
     Timer = {
-      OnBootSec = "5sec";
-      OnUnitActiveSec = "7sec";
+      OnBootSec = "1min";
+      OnUnitActiveSec = "10sec";
       Persistent = true;
     };
     Install.WantedBy = [ "timers.target" ];  # This enables the timer at boot
